@@ -3,7 +3,7 @@
 # cd $1
 cd $1
 curl -OL https://gitlab.com/lilypond/lilypond/-/releases/v2.24.1/downloads/lilypond-2.24.1-linux-x86_64.tar.gz
-tar xf -C / lilypond-2.24.1-linux-x86_64.tar.gz
+tar xf lilypond-2.24.1-linux-x86_64.tar.gz -C /
 ls
 which lilypond
 
