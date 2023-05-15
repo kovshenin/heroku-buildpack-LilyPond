@@ -5,7 +5,7 @@ cd $1
 curl -OL https://gitlab.com/lilypond/lilypond/-/releases/v2.24.1/downloads/lilypond-2.24.1-linux-x86_64.tar.gz
 tar xf lilypond-2.24.1-linux-x86_64.tar.gz
 cd lilypond-2.24.1
-cp -r * /
+cp -r bin/* /bin/
 which lilypond
 
 echo "-----> Done installing LilyPond"
