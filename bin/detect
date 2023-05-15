@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
-BUILD_DIR=$1
-cd $BUILD_DIR
-echo "LilyPond"
+#BUILD_DIR=$1
+#cd $BUILD_DIR
+#echo "LilyPond"
 # ls -U *.ly > /dev/null 2>&1 && (echo "LilyPond") || exit 1
-exit 0
+#exit 0
